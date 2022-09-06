@@ -31,7 +31,7 @@ class RouteGenerator{
       case Routes.registerRoute:
         return MaterialPageRoute(builder: (_)=>const RegisterView());
       case Routes.storeDetailRoute:
-        return MaterialPageRoute(builder: (_)=>StoreDetailView());
+        return MaterialPageRoute(builder: (_)=>const StoreDetailView());
       default :
         return unDefinedRoute();
 
